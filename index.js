@@ -1,6 +1,6 @@
 module.exports = function(context, req) {
     context.res = {
-        status: 400,
+        status: 200,
         body: "Hello World'"
     };
 

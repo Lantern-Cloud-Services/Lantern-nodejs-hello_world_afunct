@@ -1,18 +1,19 @@
 {
   "bindings": [
     {
-      "authLevel": "function",
-      "webHookType": "",
+      "authLevel": "anonymous",
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": [ "post", "GET" ]
+      "methods": [
+        "get",
+        "post"
+      ]
     },
     {
       "type": "http",
       "direction": "out",
-      "name": "$return"
+      "name": "res"
     }
-  ],
-  "disabled": false
+  ]
 }
